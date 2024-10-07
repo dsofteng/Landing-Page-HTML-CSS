@@ -1,8 +1,8 @@
 # CSS FEATURES
 
-> *** BEM Methodology. ***
-> *** Responsive Desing. ***
-> *** GRID. ***
-> *** Flexbox. ***
-> *** Animations. ***
-> *** Transition. ***
+-  *** BEM Methodology. ***
+- *** Responsive Desing. ***
+- *** GRID. ***
+- *** Flexbox. ***
+- *** Animations. ***
+- *** Transition. ***
