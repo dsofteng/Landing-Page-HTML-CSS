@@ -154,10 +154,10 @@ h1{
     background-color: var(--secondary-color);
     clip-path: polygon(0 2.25rem, 100% 0, 100% calc(100% - 2.25rem), 0 100%);
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     padding-top: 5.5rem;
     position: absolute;
-    top: 45rem;
+    top: 35rem;
     z-index: 10;
     display: flex;
     flex-direction: column;
