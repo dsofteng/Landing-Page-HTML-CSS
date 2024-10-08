@@ -1,6 +1,6 @@
 # CSS FEATURES
 
--  *BEM Methodology.* 
+- *BEM Methodology.* 
 - *Responsive Desing.*
 - *GRID.* 
 - *Flexbox.*
