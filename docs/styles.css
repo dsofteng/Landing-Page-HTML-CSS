@@ -429,7 +429,7 @@ h1{
 .service__list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(2, 1fr);
     padding: 2.5rem;
     padding-top: 0;
     gap: 3rem;
