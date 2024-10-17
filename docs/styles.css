@@ -534,11 +534,20 @@ h1 {
     place-content: center;
     border-radius: 8px;
 }
+
+.project__container-item:hover{
+    opacity: 0.74;
+    outline: 2px solid #ccc;
+}
 .project__container-item:first-child{
     grid-column: span 2;
 }
 
 .project__container-item:nth-child(6){
     grid-column: span 2;
+}
+
+.project__container-item{
+    font-size: 2rem;
 }
 
