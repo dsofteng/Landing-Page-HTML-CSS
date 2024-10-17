@@ -18,7 +18,7 @@
   --font-size: 1.2rem;
   --font-color: #fff;
   --image-begining: url(media/fondo1.jpg);
-  --shadow-color: #ccc;
+  --shadow: 0px 0px 20px #ccc;
 }
 
 body {
@@ -26,9 +26,10 @@ body {
   font-family: var(--font);
   background-color: var(--background-color);
   overflow-x: hidden;
+  color: var(main);
 }
 
-/*Header Section*/
+/*Section Header*/
 .header {
   position: fixed;
   width: 100%;
@@ -264,12 +265,15 @@ h1 {
 .company__container > p{
     grid-area: description;
     margin: 2.5rem;
+    box-shadow: var(--shadow);
+    padding: 2.5rem;
+    border-radius: 50px 0;
 }
 
-.company__container > p span{
+.company__container > p::first-letter{
     color: var(--primary-color);
-    font-weight: 600;
     initial-letter: 2 2;
+    letter-spacing: 10px;
 }
 
 .company__img {
@@ -306,7 +310,7 @@ h1 {
   max-width: 1024px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 30px var(--shadow-color);
+  box-shadow: var(--shadow);
   border-radius: 50px 0;
   margin-top: 20px;
   animation: description 0.1s linear both;
@@ -445,7 +449,7 @@ h1 {
 }
 
 .service__list-item {
-  box-shadow: 0px 0px 20px var(--shadow-color);
+  box-shadow: var(--shadow);
   border-radius: 50px 0;
   padding: 2rem;
 }
@@ -468,7 +472,7 @@ h1 {
   text-align: justify;
 }
 
-.service__list-item button {
+.service__list-item-button{
   border: none;
   padding: 15px;
   color: var(--font-color);
@@ -480,10 +484,24 @@ h1 {
   margin-top: 20px;
 }
 
+.service__list-item-button a{
+    text-decoration: none;
+    color: var(--font-color);
+    text-align: center;
+}
+
 .service__description-img {
   width: 6.5rem;
   height: 6.5rem;
   border-radius: 12px;
   border: 6px solid var(--secondary-color);
   justify-content: center;
+}
+
+/*Section Project*/
+.project__container{
+    background-color: var(--primary-color);
+    clip-path: polygon(0 2.25rem, 100% 0, 100% calc(100% - 2.25rem), 0 100%);
+    padding: 2.5rem 5.5rem;
+    color: var(--font-color);
 }
