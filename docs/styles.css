@@ -510,4 +510,35 @@ h1 {
     text-align: center;
     color: var(--font-color);
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.project__container-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    gap: 12px;
+    padding: 12px;
+    min-height: 90vh;
+    text-align: center;
+}
+.project__container-item{
+    background-image: linear-gradient(#0006, #0006), url(media/img-self-info3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    border-radius: 8px;
+}
+.project__container-item:first-child{
+    grid-column: span 2;
+}
+
+.project__container-item:nth-child(6){
+    grid-column: span 2;
+}
+
