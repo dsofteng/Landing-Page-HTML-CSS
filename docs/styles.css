@@ -505,3 +505,9 @@ h1 {
     padding: 2.5rem 5.5rem;
     color: var(--font-color);
 }
+
+.project__container-title{
+    text-align: center;
+    color: var(--font-color);
+    font-size: 3rem;
+}
