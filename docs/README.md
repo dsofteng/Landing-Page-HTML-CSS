@@ -6,3 +6,4 @@
 - *Flexbox.*
 - *Animations.*
 - *Transition.*
+- *Modal Windows*
