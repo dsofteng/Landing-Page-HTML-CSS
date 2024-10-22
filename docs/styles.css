@@ -628,7 +628,7 @@ textarea{
     font-family: inherit;
 } 
 
-/*Footer*/
+/* Section Footer*/
 footer{
     padding: 10rem;
     text-align: center;
@@ -637,6 +637,26 @@ footer{
     font-size: 3rem;
 }
 
+.footer__link{
+  border: 1px solid var(--font-color);
+  border-radius: 50px 0; 
+  height: 5.5rem;
+  width: 25.5rem;
+  padding: 2rem;
+  color: var(--font-color);
+  font-weight: 400;
+}
+
+.footer__link:visited{
+  color: var(--secondary-color);
+}
+
+.footer__img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid var(--secondary-color);
+}
 
 /*Responsive Section*/
 
