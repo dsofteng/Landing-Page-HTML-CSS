@@ -697,7 +697,7 @@ footer{
 
 /*Keyframes Animations*/
 
-@keyframes jump {
+/*@keyframes jump {
   0%,
   100% {
 	transform: translateY(0) rotate(0);
@@ -738,3 +738,4 @@ footer{
 	opacity: 1;
   }
 }
+*/
